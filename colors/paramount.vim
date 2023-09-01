@@ -94,7 +94,7 @@ if &background != s:background
    execute "set background=" . s:background
 endif
 
-call s:h("Cursor",        {"bg": s:purple, "fg": s:white })
+call s:h("Cursor",        {"bg": s:purple, "fg": s:white }) " norm
 call s:h("Comment",       {"fg": s:bg_subtle, "gui": "italic"})
 
 call s:h("Constant",      {"fg": s:purple})
