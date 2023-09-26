@@ -18,8 +18,8 @@ if exists('syntax on')
 endif
 
 let g:colors_name='paramount'
-
-let s:black           = { "gui": "#000000", "cterm": "232" }
+" #000000
+let s:black           = { "gui": "#0C0E0F", "cterm": "232" }
 let s:medium_gray     = { "gui": "#767676", "cterm": "243" }
 let s:white           = { "gui": "#F1F1F1", "cterm": "15"  }
 let s:actual_white    = { "gui": "#FFFFFF", "cterm": "231" }
